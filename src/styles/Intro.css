@@ -1,0 +1,244 @@
+/* 🌐 Global Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  overflow: visible;
+}
+
+/* 🎯 Default Styles (for laptops and desktops ≥1024px) */
+.intro-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 4rem;
+  background-color: black;
+  color: white;
+  height: calc(100vh - 70px); /* offset for fixed navbar */
+  margin-top: 70px;
+  gap: 2rem;
+}
+
+.profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: #0d0d0d;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(255, 106, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.profile-pic img:hover {
+  transform: scale(1.05);
+}
+
+.desc {
+  max-width: 800px;
+  padding-left: 2rem;
+}
+
+.name {
+  color: #ff6a00;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.intro-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  white-space: normal;
+}
+
+.contact-info {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 1.2rem;
+}
+
+.icon {
+  font-size: 1.8rem;
+  color: white;
+  transition: color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #ff6a00;
+}
+
+.github-icon {
+  color: #ffffff;
+}
+.github-icon:hover {
+  color: #ff6a00;
+}
+
+.linkedin-icon {
+  color: #0a66c2;
+}
+.linkedin-icon:hover {
+  color: #ff6a00;
+}
+
+.email-icon {
+  color: #d93025;
+}
+.email-icon:hover {
+  color: #ff6a00;
+}
+
+.whatsapp-icon {
+  color: #25d366;
+}
+.whatsapp-icon:hover {
+  color: #ff6a00;
+}
+
+/* 📱 Mobile Phones (max-width: 767px) */
+@media (max-width: 767px) {
+  .intro-section {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 2rem 1.5rem;
+    margin-top: 70px;
+  }
+
+  .desc {
+    padding: 0;
+  }
+
+  .profile-pic img {
+    width: 180px;
+    height: 180px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .intro-description {
+    font-size: 1rem;
+  }
+
+  .icon {
+    font-size: 1.4rem;
+  }
+}
+
+/* 📱 Tablets (max-width: 1023px) */
+@media (max-width: 1023px) {
+  .intro-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding: 2rem;
+    margin-top: 70px;
+  }
+
+  .desc {
+    padding: 0;
+    max-width: 90%;
+  }
+
+  .profile-pic img {
+    width: 220px;
+    height: 220px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .intro-description {
+    font-size: 1.05rem;
+  }
+
+  .icon {
+    font-size: 1.6rem;
+  }
+  .contact-info{
+    justify-content: center;
+  }
+}
+
+/* 🖥️ Ultra-Wide Screens (min-width: 1600px) */
+@media (min-width: 1600px) {
+  .intro-section {
+    padding: 4rem 8rem;
+  }
+
+  .desc {
+    max-width: 700px;
+  }
+
+  .profile-pic img {
+    width: 320px;
+    height: 320px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  .intro-description {
+    font-size: 1.25rem;
+  }
+
+  .icon {
+    font-size: 2rem;
+  }
+}
+@media(max-width:411px) {
+  .h2{
+    font-size:1.5rem;
+  }
+  .h1{
+    font-size:1.02rem;
+  }
+  p{
+    justify-content: center;
+    font-size: 1.005rem;
+  }
+}

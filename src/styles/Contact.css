@@ -1,0 +1,148 @@
+.contact-section {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  color: #ff6a00;
+  margin-bottom: 1rem;
+}
+
+.contact-section p {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.2rem;
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: white;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.icon:hover {
+  color: #ff6a00;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.icon {
+  font-size: 1.8rem;
+  color: white;
+  transition: color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #ff6a00;
+}
+
+.github-icon {
+  color: #ffffff;
+}
+.github-icon:hover {
+  color: #ffffff;
+}
+
+.linkedin-icon {
+  color: #0a66c2;
+}
+.linkedin-icon:hover {
+  color:  #0a66c2;
+}
+
+.email-icon {
+  color: #d93025;
+}
+.email-icon:hover {
+  color: #d93025;
+}
+.whatsapp-icon {
+  color: #25d366;
+}
+.whatsapp-icon:hover {
+  color: #25d366;
+}
+.thank-you {
+  font-size: 1.25rem;
+  color: #ffffff;
+  max-width: 600px;
+  margin: 2rem auto;
+  text-align: center;
+  padding: 1.5rem;
+  line-height: 1.6;
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.contact-number {
+  color: white;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 3rem 1.5rem;
+  }
+
+  .contact-section h2 {
+    font-size: 2rem;
+  }
+
+  .contact-section p {
+    font-size: 1rem;
+  }
+
+  .icon {
+    font-size: 2rem;
+  }
+
+  .thank-you {
+    font-size: 1.1rem;
+    padding: 1.2rem;
+    margin: 1.5rem auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-section {
+    padding: 2.5rem 1rem;
+  }
+
+  .contact-section h2 {
+    font-size: 1.75rem;
+  }
+
+  .contact-section p {
+    font-size: 0.95rem;
+  }
+
+  .icon {
+    font-size: 1.6rem;
+  }
+
+  .thank-you {
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 1rem auto;
+  }
+
+  .contact-icons {
+    gap: 1.2rem;
+  }
+}

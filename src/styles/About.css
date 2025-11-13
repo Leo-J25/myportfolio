@@ -1,0 +1,19 @@
+.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #000000;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(255, 102, 0, 0.1);
+    text-align: center;
+    color: white;
+}
+h2{
+    color: #ff6600;
+}
+.aboutDesc{
+    width: 50%;
+}
