@@ -14,7 +14,7 @@ const Contact = () => {
 
       <div className="contact-icons">
         <a
-          href="https://github.com/moses-beniyel"
+          href="https://github.com/Leo-J25"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
@@ -22,18 +22,18 @@ const Contact = () => {
           <FaGithub className="icon github-icon block" />
         </a>
         <a
-          href="https://www.linkedin.com/in/moses-beniyel/"
+          href="www.linkedin.com/in/leo-j-188818217"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
         >
           <FaLinkedin className="icon linkedin-icon block" />
         </a>
-        <a href="mailto:mosesbeniyel007@gmail.com" aria-label="Email">
+        <a href="mailto:connectwithleo2512@gmail.com" aria-label="Email">
           <MdEmail className="icon email-icon" />
         </a>
         <a
-          href="https://wa.me/918608146276"
+          href="https://wa.me/917305188582"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="WhatsApp"
@@ -43,7 +43,7 @@ const Contact = () => {
       </div>
 
       <div className="contact-number">
-        📞 <strong>+91 8608146276</strong>
+        📞 <strong>+91 7305188582</strong>
       </div>
 
       <span className="thank-you">
