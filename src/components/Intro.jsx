@@ -13,18 +13,19 @@ const Intro = () => {
         <h1>
           Hi,
         </h1>
-        <h1>I'm <span className="name ">A.Moses Beniyel</span></h1>
-        <h2>Frontend Developer | DSA Enthusiast | 3rd Year CSE</h2>
+        <h1>I'm <span className="name ">Leo J</span></h1>
+        <h2>Entry-level Frontend Developer </h2>
 
         <p className="intro-description ">
           I'm a passionate web developer with strong skills in React and
           JavaScript. I enjoy building modern, responsive, and accessible web
-          apps that bring ideas to life. Alongside web development, I actively
-          practice DSA to strengthen my problem-solving and coding fundamentals.
+          apps that bring ideas to life. Strong ability to adapt to new technologies 
+          and deliver scalable solutions. Looking to contribute technical expertise 
+          and problem solving skills in a professional development team.
         </p>
         <div className="contact-info ">
           <a
-            href="https://github.com/moses-beniyel"
+            href="https://github.com/Leo-J25"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -32,18 +33,18 @@ const Intro = () => {
             <FaGithub className="icon github-icon" />
           </a>
           <a
-            href="https://www.linkedin.com/in/moses-beniyel/"
+            href="www.linkedin.com/in/leo-j-188818217"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
           >
             <FaLinkedin className="icon linkedin-icon" />
           </a>
-          <a href="mailto:mosesbeniyel007@gmail.com" aria-label="Email">
+          <a href="mailto:connectwithleo2512@gmail.com" aria-label="Email">
             <MdEmail className="icon email-icon" />
           </a>
           <a
-            href="https://wa.me/918608146276"
+            href="https://wa.me/917305188582"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="WhatsApp"
