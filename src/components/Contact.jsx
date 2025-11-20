@@ -1,4 +1,4 @@
-import React from "react";
+
 import { MdEmail } from "react-icons/md";
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import "../styles/Contact.css";
