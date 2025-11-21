@@ -56,43 +56,7 @@ const Skills = () => {
     
   ];
 
-  // const dsaSkillsArr = [
-  //   {
-  //     name: "Arrays & Strings",
-  //     level: "Advanced",
-  //     icon: FaIcons(<FaProjectDiagram />, "#4B5563"),
-  //   },
-  //   {
-  //     name: "Linked     Lists",
-  //     level: "Intermediate",
-  //     icon: FaIcons(<FaCodeBranch />, "#4B5563"),
-  //   },
-  //   {
-  //     name: "Recursion & Backtracking",
-  //     level: "Intermediate",
-  //     icon: FaIcons(<MdLoop />, "#4B5563"),
-  //   },
-  //   {
-  //     name: "Binary Search",
-  //     level: "Intermediate",
-  //     icon: FaIcons(<FaSearch />, "#4B5563"),
-  //   },
-  //   {
-  //     name: "Sliding Window",
-  //     level: "Intermediate",
-  //     icon: FaIcons(<FaRandom />, "#4B5563"),
-  //   },
-  //   {
-  //     name: "Trees & Graphs",
-  //     level: "Intermediate",
-  //     icon: FaIcons(<TbBinaryTree />, "#4B5563"),
-  //   },
-  //   {
-  //     name: "Stacks & Queues",
-  //     level: "Intermediate",
-  //     icon: FaIcons(<TbStack2 />, "#4B5563"),
-  //   },
-  // ];
+  
 
   const SkillCard = ({ skill }) => (
     <div className="skill-card">
@@ -114,11 +78,7 @@ const Skills = () => {
             <SkillCard key={skill.name} skill={skill} />
           ))}
         </div>
-        <div className="skills-grid block">
-          {dsaSkillsArr.map((skill) => (
-            <SkillCard key={skill.name} skill={skill} />
-          ))}
-        </div>
+      
       </div>
     </section>
   );
