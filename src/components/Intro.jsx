@@ -33,7 +33,7 @@ const Intro = () => {
             <FaGithub className="icon github-icon" />
           </a>
           <a
-            href="www.linkedin.com/in/leo-j-188818217"
+            href="https://www.linkedin.com/in/leo-j-188818217/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"

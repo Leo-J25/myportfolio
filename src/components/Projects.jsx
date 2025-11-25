@@ -9,25 +9,7 @@ const projects = [
     tech: ["HTML", "CSS", "JavaScript", "React"],
     demoLink: "https://wheater-app-gamma.vercel.app/",
     githubLink: "https://github.com/Moses-beniyel/wheaterApp",
-    image: "/Assets/wheatherAppThumbnail.png",
-  },
-  {
-    title: "Sorting Visualizer",
-    description:
-      "Interactive visualizer for popular sorting algorithms like Merge Sort, Bubble Sort, Insertion Sort, and Selection Sort. Built with React and styled for smooth animations.",
-    tech: ["HTML", "CSS", "JavaScript", "React"],
-    demoLink: "https://sorting-visualizer-blue-iota.vercel.app/",
-    githubLink: "https://github.com/Moses-beniyel/sorting-visualizer",
-    image: "/Assets/sortingVisualizerPhoto.png",
-  },
-  {
-    title: "React Component Library",
-    description:
-      "A reusable and modular React UI component library with pre-built cards, buttons, forms, and more. Created to speed up development and maintain design consistency.",
-    tech: ["HTML", "CSS", "JavaScript", "React"],
-    demoLink: "https://react-component-library-six.vercel.app",
-    githubLink: "https://github.com/Moses-beniyel/ReactComponentLibrary",
-    image: "/Assets/componentLibrary.png",
+    image: "/Assets/weather-app.png",
   },
   {
     title: "Currency Converter",
