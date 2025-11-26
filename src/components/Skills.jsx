@@ -62,7 +62,9 @@ const Skills = () => {
     <div className="skill-card">
       <h3>{skill.name}</h3>
       <p>{skill.level}</p>
+      <div className="skill-icon">
       {skill.icon && <div>{skill.icon}</div>}
+      </div>
     </div>
   );
 
