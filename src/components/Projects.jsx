@@ -28,25 +28,7 @@ const projects = [
     demoLink: "https://tasty-foods-ad.vercel.app/",
     githubLink: "https://github.com/Leo-J25/tasty_foods_ad",
     image: "/Assets/ad.png",
-  },
-  {
-    title: "Todo List",
-    description:
-      "A simple and clean task manager to add and track daily tasks. Supports adding, deleting, and organizing your to-dos using React state management.",
-    tech: ["HTML", "CSS", "JavaScript", "React"],
-    demoLink: "https://to-do-list-mu-inky.vercel.app/",
-    githubLink: "https://github.com/Moses-beniyel/TO-DO-LIST/",
-    image: "/Assets/todoList.png",
-  },
-  {
-    title: "Tic-Tac-Toe",
-    description:
-      "A classic Tic-Tac-Toe game built using React. Features dynamic game board, move tracking, and reset functionality with modern UI styling.",
-    tech: ["HTML", "CSS", "JavaScript", "React"],
-    demoLink: "https://tic-tac-toe-chzk.vercel.app/",
-    githubLink: "https://github.com/Moses-beniyel/tic-tac-toe/",
-    image: "/Assets/tic-tac-toe.png",
-  },
+  }
 ];
 
 const Projects = () => {
