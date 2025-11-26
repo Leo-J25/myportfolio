@@ -14,7 +14,7 @@ const projects = [
   {
     title: "IP Address Checker",
     description:
-      "",
+      "IP Address Checker — a minimalist web app that instantly displays your public IP address in a clean, user-friendly interface.",
     tech: ["HTML", "CSS", "JavaScript"],
     demoLink: "https://ip-address-checker-tau.vercel.app/",
     githubLink: "https://github.com/Leo-J25/ip_address_checker",
@@ -23,7 +23,7 @@ const projects = [
   {
     title: "Tasty Foods Ad",
     description:
-      "A creative and animated Spider-Man-themed character card built using only HTML and CSS. My very first hands-on project showcasing layout and styling skills.",
+      "Tasty Foods — a clean, modern restaurant website that showcases menu items, allows online ordering, and presents food, reviews and news in an appetizing layout and styling skills.",
     tech: ["HTML", "CSS"],
     demoLink: "https://tasty-foods-ad.vercel.app/",
     githubLink: "https://github.com/Leo-J25/tasty_foods_ad",
