@@ -7,27 +7,27 @@ const projects = [
     description:
       "A responsive weather application that fetches real-time data using OpenWeatherMap API. Displays temperature, weather conditions, and icons based on user input location.",
     tech: ["HTML", "CSS", "JavaScript", "React"],
-    demoLink: "https://wheater-app-gamma.vercel.app/",
-    githubLink: "https://github.com/Moses-beniyel/wheaterApp",
+    demoLink: "https://weather-app-4pxd-c37rfrb0t-leos-projects-e9ff0897.vercel.app/",
+    githubLink: "https://github.com/Leo-J25/weather-app",
     image: "/Assets/weather-app.png",
   },
   {
-    title: "Currency Converter",
+    title: "IP Address Checker",
     description:
-      "Converts currency rates in real-time using ExchangeRate API. Features dropdown currency selectors and real-time conversion display. Simple and fast UX.",
+      "",
     tech: ["HTML", "CSS", "JavaScript"],
-    demoLink: "https://currency-convertor-mu-teal.vercel.app/",
-    githubLink: "https://github.com/Moses-beniyel/currency-convertor",
-    image: "/Assets/currency-convertor.png",
+    demoLink: "https://ip-address-checker-tau.vercel.app/",
+    githubLink: "https://github.com/Leo-J25/ip_address_checker",
+    image: "/Assets/ip.png",
   },
   {
-    title: "Spider-Man Card",
+    title: "Tasty Foods Ad",
     description:
       "A creative and animated Spider-Man-themed character card built using only HTML and CSS. My very first hands-on project showcasing layout and styling skills.",
     tech: ["HTML", "CSS"],
-    demoLink: "https://html-css-seven-murex.vercel.app/",
-    githubLink: "https://github.com/Moses-beniyel/ReactComponentLibrary",
-    image: "/Assets/spiderMan.png",
+    demoLink: "https://tasty-foods-ad.vercel.app/",
+    githubLink: "https://github.com/Leo-J25/tasty_foods_ad",
+    image: "/Assets/ad.png",
   },
   {
     title: "Todo List",
