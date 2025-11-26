@@ -7,7 +7,7 @@ const projects = [
     description:
       "A responsive weather application that fetches real-time data using OpenWeatherMap API. Displays temperature, weather conditions, and icons based on user input location.",
     tech: ["HTML", "CSS", "JavaScript", "React"],
-    demoLink: "https://weather-app-4pxd-c37rfrb0t-leos-projects-e9ff0897.vercel.app/",
+    demoLink: "https://weather-app-4pxd.vercel.app/",
     githubLink: "https://github.com/Leo-J25/weather-app",
     image: "/Assets/weather-app.png",
   },
